@@ -1,0 +1,153 @@
+/* General Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Banner Section */
+.banner {
+    position: relative;
+}
+
+.banner-slide {
+    position: relative;
+    max-width: 100%;
+    height: 400px;
+}
+
+.banner-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+.banner-text h1 {
+    font-size: 3em;
+}
+
+/* Products Section */
+.products {
+    padding: 50px 20px;
+    background-color: #f7f7f7;
+}
+
+.product-item {
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+}
+
+.product-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.color-options {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+/* Clients Section */
+.clients {
+    padding: 20px;
+    text-align: center;
+}
+
+.logo-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* News and Events */
+.news-events {
+    padding: 50px 20px;
+    background-color: #e8e8e8;
+}
+
+.news-item {
+    margin-bottom: 20px;
+}
+
+/* Map Section */
+#map-container {
+    width: 100%;
+    height: 400px;
+    background-color: #ccc;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+footer .contact-info, footer .contact-form {
+    width: 45%;
+    float: left;
+    margin: 20px;
+}
+
+footer form input, footer form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+footer button {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
